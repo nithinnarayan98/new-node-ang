@@ -1,0 +1,10 @@
+<input type="button" value="show details" (click)="show()"/>
+
+<table border="2">
+    <tr><td>name</td>
+    <td>salary</td>
+    </tr>
+    <tr *ngFor="let p of message"> 
+        <td> {{p.name}} </td>
+    <td> {{p.sal}} </td> </tr>
+</table>
